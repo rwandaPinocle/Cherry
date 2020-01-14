@@ -1,10 +1,11 @@
-from ..polican.playMove import (playMove, 
-                                isWin, 
-                                validMoves, 
-                                placePiece, 
-                                alphaBeta,
-                                PlayerNode,
-                                EnemyNode)
+from ..src.playMove import (
+        playMove, 
+        isWin, 
+        validMoves, 
+        placePiece, 
+        alphaBeta,
+        PlayerNode,
+        EnemyNode)
 import numpy as np
 
 
